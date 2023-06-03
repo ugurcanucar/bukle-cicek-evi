@@ -1,0 +1,31 @@
+.navigation_bar_wrapper {
+    @apply fixed z-20 top-20  w-screen   flex justify-center items-center;
+
+    .navigation_bar {
+        @apply z-20 text-base  max-w-7xl w-full flex justify-between items-center;
+
+        .logo_side {
+            @apply flex items-center gap-5 uppercase;
+
+            span {
+                @apply hover:cursor-pointer;
+            }
+
+            .logo {
+                @apply hover:cursor-pointer font-semibold pr-10;
+                font-size: 1.2rem;
+            }
+        }
+
+        .bag_side {
+            @apply flex gap-10 hover:cursor-pointer items-center ;
+             
+            .shopping_bag_wrapper {
+                @apply flex gap-2;
+            }
+            .login_button{
+                @apply bg-[#744E23] text-white px-8 py-2 rounded-[30px];
+            }
+        }
+    }
+}
