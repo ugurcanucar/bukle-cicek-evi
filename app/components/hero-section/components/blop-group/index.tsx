@@ -3,13 +3,13 @@ import React from "react";
 
 const BlopGroup = () => {
   return (
-    <React.Fragment>
+    <div className="-z-10">
       <Image
         src="/lineVector.svg"
         alt="Vector Right Top"
         width={340}
         height={520}
-        className="absolute z-10  top-0 right-0 "
+        className="absolute -z-10   top-0 right-0 "
         priority
       />
       <Image
@@ -17,7 +17,7 @@ const BlopGroup = () => {
         alt="Blop Right Top"
         width={400}
         height={500}
-        className="absolute top-0  right-0 "
+        className=" absolute -z-20 top-0  right-0 "
         priority
       />
       <Image
@@ -44,7 +44,7 @@ const BlopGroup = () => {
         className="absolute   bottom-0 right-0"
         priority
       />
-    </React.Fragment>
+    </div>
   );
 };
 
