@@ -1,0 +1,16 @@
+.flower_information_section {
+  @apply w-full pl-[1.5rem] flex flex-col gap-5 mb-8;
+  .flower_title {
+    @apply font-bold mb-2;
+    font-size: 34px;
+  }
+  .flower_subtitle {
+    font-size: 18px;
+    color: #9d9d99;
+  }
+  .flower_information {
+    @apply font-light text-[#312F0D];
+    font-size: 14px;
+    line-height: 180%;
+  }
+}

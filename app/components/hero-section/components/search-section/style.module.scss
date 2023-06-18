@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap");
 
-.search_section_wrapper{
-    @apply absolute left-0 top-0 max-w-[50%];
+.search_section_wrapper {
+  @apply absolute left-0 top-0 max-w-[50%] z-50;
 
-
-    h1 {
-        @apply font-black ;
-        font-size: 60px;
-        font-family: 'Playfair Display', serif;
-    }
-    p {
-        @apply font-light w-[70%] pt-5;
-        font-size: 16px;
-    }
+  h1 {
+    @apply font-black;
+    font-size: 60px;
+    font-family: "Playfair Display", serif;
+  }
+  p {
+    @apply font-light w-[70%] pt-5;
+    font-size: 16px;
+  }
 }

@@ -1,0 +1,8 @@
+.button_wrapper {
+  @apply px-8 py-2 w-min whitespace-nowrap;
+  span {
+    @apply uppercase;
+    font-size: 11px;
+    letter-spacing: 0.15rem;
+  }
+}
