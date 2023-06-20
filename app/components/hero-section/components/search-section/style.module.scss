@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap");
 
 .search_section_wrapper {
-  @apply absolute left-0 top-0 max-w-[50%] z-50;
+  @apply xl:absolute  xl:left-0 xl:top-0 max-w-full w-full xl:max-w-[50%] z-50;
 
   h1 {
     @apply font-black;

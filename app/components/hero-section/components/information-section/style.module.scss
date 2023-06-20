@@ -1,14 +1,14 @@
 .flower_information_section_wrapper {
-  @apply w-[60%] flex items-end mb-20;
+  @apply w-full xl:w-[60%] xl:px-0 px-10 flex flex-col md:flex-row items-end mb-20;
 
   .image_section_wrapper {
     @apply h-full flex flex-col items-end relative  w-full;
 
     .image_section {
-      @apply h-full relative w-full   bg-[#FCDDB7] rounded-t-full;
+      @apply xl:min-h-0 min-h-[60vh] h-full relative w-full   bg-[#FCDDB7] rounded-t-full;
 
       .image_wrapper {
-        @apply absolute  bottom-0    right-0 w-[440px] h-[400px];
+        @apply absolute;
         .image {
           @apply absolute    bottom-0 left-0 right-0 top-0;
         }
